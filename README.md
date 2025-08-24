@@ -39,11 +39,26 @@ Emotion-Aware-Study-Assistant/
 ```bash
 git clone https://github.com/bhanu-katoch/Emotion-Aware-Study-Assistant.git
 cd Emotion-Aware-Study-Assistant
+```
 
 2️⃣ Install dependencies:
 ```sh
 pip install -r requirements.txt
 ```
+> **⚠️ Note**
+>
+> - Always activate the virtual environment before running any scripts:
+> 
+>   **Mac/Linux:** `source uv/bin/activate`  
+>   **Windows:** `.\uv\Scripts\Activate.ps1`
+>
+> - In VS Code, make sure the Python interpreter is set to the virtual environment (`uv`):
+>   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac)
+>   - Search for `Python: Select Interpreter`
+>   - Choose the interpreter inside the `uv` folder
+>
+> - Restart VS Code after selecting the interpreter to avoid errors like missing packages (e.g., NumPy).
+
 
 3️⃣ Run webcam demo:
 ```sh
